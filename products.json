@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "RAZER BLACKWIDOW TOURNAMENT EDITION CHROMA V2 (QUARTZ PINK) (RAZER GREEN SWITCH) (RGB LED) (EN)",
+        "price": 2990,
+		"category": "keyboard razer",
+        "image": { "fields": { "file": { "url": "./images/1.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "RAZER ORNATA CHROMA (MECHA-MEMBRANE) (RGB LED)",
+        "price": 2590,
+		"category": "keyboard razer",
+        "image": { "fields": { "file": { "url": "./images/2.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "RAZER BLACKWIDOW ELITE (RAZER GREEN SWITCH) (RGB LED) (EN/TH)",
+        "price": 4490,
+		"category": "keyboard razer mouse msi",
+        "image": { "fields": { "file": { "url": "./images/3.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "RAZER BLACKWIDOW X CHROMA (BLACK) (RAZER GREEN SWITCH) (RGB LED) (EN/TH)",
+        "price": 4990,
+		"category": "keyboard razer msi",
+        "image": { "fields": { "file": { "url": "./images/4.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "RAZER BLACKWIDOW X CHROMA (BLACK) (RAZER GREEN SWITCH) (RGB LED) (EN/TH)",
+        "price": 5000,
+		"category": "keyboard razer",
+        "image": { "fields": { "file": { "url": "./images/4.png" } } }
+      }
+    }	
+  ]
+}

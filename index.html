@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jiras_Final</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.1/css/all.css" integrity="sha256-DVK12s61Wqwmj3XI0zZ9MFFmnNH8puF/eRHTB4ftKwk=" crossorigin="anonymous" />
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <!-- navbar -->
+  <nav class="navbar">
+    <div class="navbar-item">
+        <span class="nav-icon">
+          <a href=""><img src="images/jirass.png" alt="store logo" height="50px;"/></a>
+        </span>
+        <!-- Search form -->
+        <form id="searchForm" class="form-inline mr-auto">
+          <input id="productInput"  class="form-control mr-sm-2" type="text" placeholder="Search in Jirass" aria-label="Search" style="width: 70%;">
+          <input class="btn btn-outline-info btn-rounded btn-sm my-0" type="submit" value="Search">
+        </form>   
+        <!-- End form -->
+          <!-- cart -->
+        <div class="cart-btn">
+          <span class="nav-icon">
+            <i class="fas fa-cart-plus"></i>
+          </span>
+          <div class="cart-items">0</div>
+          <!-- End cart -->
+    </div>
+  </nav>
+  <!-- End navbar -->
+  <!-- Slide Show -->
+<div id="carouselExampleControls" class="carousel slide carousel-fade" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-interval="5000">
+        <span class="d-block imgs1">
+        </span>
+      </div>
+      <div class="carousel-item" data-interval="5000">
+        <span class="d-block imgs2"></span>
+      </div>
+      <div class="carousel-item" data-interval="5000">
+        <span class="d-block imgs3"></span>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </a>
+</div>
+<!-- End Slide Show -->
+
+<!-- Product -->
+<section class="products">
+	<div class="category">
+		<h1>Categories</h1>
+		 <button class="category-btn categorySelect">All</button>
+		 <button class="category-btn">Keyboard</button>
+		 <button class="category-btn">Mouse</button>
+		 <button class="category-btn">Razer</button>
+		 <button class="category-btn">MSI</button>
+		 <h5>Display: <span class="displayType">All Products</span><span class="results"></span></h5>
+	</div>
+
+    <ul class="products-center" id="myProduct">
+			<!-- li display product in JS -->
+			<!-- <li class="product">
+            <div class="img-container">
+              <img src="./images/1.png" alt="product" class="product-img"/>
+            </div>
+            <div class="productPrice"><h4>THB 2990.-</h4></div>         
+            <button class="bag-btn disabled" data-id="1">
+              <i class="fas fa-shopping-cart"></i>Add to cart
+            </button>
+            <div class="productText"><h3>RAZER BLACKWIDOW TOURNAMENT EDITION CHROMA V2 (QUARTZ PINK) (RAZER GREEN SWITCH) (RGB LED) (EN)</h3></div>
+          </li>  -->
+	</ul>
+</section>      
+<!-- End Product -->
+<!-- Footer -->
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <br>Copyright &copy; 2019 Jirass
+      </div>
+      <div class="col-md-6">
+          Follow Us
+        <div class="footerIcon">
+          <i class="fab fa-facebook pointer"></i>
+          <i class="fab fa-twitter pointer"></i>
+          <i class="fab fa-google-plus pointer"></i>
+          <i class="fab fa-instagram pointer"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Footer -->
+
+<!-- ZoomImage -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+</div>
+<!-- End ZoomImage -->
+	<!-- Cart -->
+<div class="cart-overlay">
+    <div class="cart">
+        <span class="close-cart"><i class="far fa-window-close"></i></span>
+        <h2 class="text-center">Your Cart</h2>
+        <div class="cart-content">
+          <!-- cart item list in JS-->
+        </div>
+
+        <div class="cart-footer">
+          <h3>Your Total : THB <span class="cart-total">0</span>.-</h3>
+          <button class="clear-cart">CLEAR CART</button>
+        </div>
+    </div>
+</div>
+    <!-- End cart -->
+<!-- JavaScript -->
+<!-- <script src="https://kit.fontawesome.com/ece852a798.js"></script> -->
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="js/app.js"></script>
+<!--End JavaScript -->
+</body>
+</html>
