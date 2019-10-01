@@ -3,7 +3,7 @@
     {
       "sys": { "id": "1" },
       "fields": {
-        "title": "RAZER BLACKWIDOW TOURNAMENT EDITION CHROMA V2 (QUARTZ PINK) (RAZER GREEN SWITCH) (RGB LED) (EN)",
+        "title": "KEYBOARD RAZER BLACKWIDOW TOURNAMENT EDITION CHROMA V2 (QUARTZ PINK) (RAZER GREEN SWITCH) (RGB LED) (EN)",
         "price": 2990,
 		"category": "keyboard razer",
         "image": { "fields": { "file": { "url": "./images/1.png" } } }
@@ -12,7 +12,7 @@
     {
       "sys": { "id": "2" },
       "fields": {
-        "title": "RAZER ORNATA CHROMA (MECHA-MEMBRANE) (RGB LED)",
+        "title": "KEYBOARD RAZER ORNATA CHROMA (MECHA-MEMBRANE) (RGB LED)",
         "price": 2590,
 		"category": "keyboard razer",
         "image": { "fields": { "file": { "url": "./images/2.png" } } }
@@ -21,28 +21,118 @@
     {
       "sys": { "id": "3" },
       "fields": {
-        "title": "RAZER BLACKWIDOW ELITE (RAZER GREEN SWITCH) (RGB LED) (EN/TH)",
+        "title": "KEYBOARD RAZER BLACKWIDOW ELITE (RAZER GREEN SWITCH) (RGB LED) (EN/TH)",
         "price": 4490,
-		"category": "keyboard razer mouse msi",
+		"category": "keyboard razer",
         "image": { "fields": { "file": { "url": "./images/3.png" } } }
       }
     },
     {
       "sys": { "id": "4" },
       "fields": {
-        "title": "RAZER BLACKWIDOW X CHROMA (BLACK) (RAZER GREEN SWITCH) (RGB LED) (EN/TH)",
+        "title": "KEYBOARD RAZER BLACKWIDOW X CHROMA (BLACK) (RAZER GREEN SWITCH) (RGB LED) (EN/TH)",
         "price": 4990,
-		"category": "keyboard razer msi",
+		"category": "keyboard razer",
         "image": { "fields": { "file": { "url": "./images/4.png" } } }
       }
     },
     {
       "sys": { "id": "5" },
       "fields": {
-        "title": "RAZER BLACKWIDOW X CHROMA (BLACK) (RAZER GREEN SWITCH) (RGB LED) (EN/TH)",
-        "price": 5000,
-		"category": "keyboard razer",
-        "image": { "fields": { "file": { "url": "./images/4.png" } } }
+        "title": "MOUSE RAZER ATHERIS STORMTROOPER GAMING GEAR",
+        "price": 2290,
+		"category": "mouse razer",
+        "image": { "fields": { "file": { "url": "./images/5.png" } } }
+      }
+    },	
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "MOUSE RAZER MAMBA WIRELESS GAMING GEAR",
+        "price": 2990,
+		"category": "mouse razer",
+        "image": { "fields": { "file": { "url": "./images/6.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "MOUSE RAZER VIPER GAMING GEAR",
+        "price": 2890,
+		"category": "mouse razer",
+        "image": { "fields": { "file": { "url": "./images/7.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "MOUSE ASUS ROG GLADIUS II ORIGIN PNK LTD",
+        "price": 2590,
+		"category": "mouse asus",
+        "image": { "fields": { "file": { "url": "./images/8.png" } } }
+      }
+    },	
+    {
+      "sys": { "id": "9" },
+      "fields": {
+        "title": "MOUSE WIRELESS ASUS ROG GLADIUS II GAMING GEAR",
+        "price": 3890,
+		"category": "mouse asus",
+        "image": { "fields": { "file": { "url": "./images/9.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "10" },
+      "fields": {
+        "title": "NOTEBOOK MSI GE65 RAIDER 9SF-034TH",
+        "price": 72900,
+		"category": "notebook msi",
+        "image": { "fields": { "file": { "url": "./images/10.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "11" },
+      "fields": {
+        "title": "NOTEBOOK MSI P65 CREATOR 9SE-1016TH",
+        "price": 75900,
+		"category": "notebook msi",
+        "image": { "fields": { "file": { "url": "./images/11.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "12" },
+      "fields": {
+        "title": "NOTEBOOK ASUS VIVOBOOK 15 X512DA-EJ139T (TRANSPARENT SILVER)",
+        "price": 16900,
+		"category": "notebook asus",
+        "image": { "fields": { "file": { "url": "./images/12.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "13" },
+      "fields": {
+        "title": "NOTEBOOK ASUS VIVOBOOK 15 X512DA-EJ142T (CORAL CRUSH)",
+        "price": 16900,
+		"category": "notebook asus",
+        "image": { "fields": { "file": { "url": "./images/13.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "14" },
+      "fields": {
+        "title": "KEYBOARD ASUS ROG STRIX FLARE (CHERRY MX BLUE) (RGB LED) (EN/TH)",
+        "price": 4490,
+		"category": "keyboard asus",
+        "image": { "fields": { "file": { "url": "./images/14.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "15" },
+      "fields": {
+        "title": "KEYBOARD ASUS TUF GAMING K7 (OPTICAL-MECH TACTILE) (RGB LED) (EN/TH)",
+        "price": 2590,
+		"category": "keyboard asus",
+        "image": { "fields": { "file": { "url": "./images/15.png" } } }
       }
     }	
   ]

@@ -43,7 +43,7 @@ class UI {
             <div class="img-container">
               <img src=${product.image} alt="product" class="product-img"/>
             </div>
-            <div class="productPrice"><h4>THB ${product.price}.-</h4></div>         
+            <div class="productPrice"><h4>THB ${product.price.toLocaleString()}.-</h4></div>         
             <button class="bag-btn" data-id=${product.id}>
               <i class="fas fa-shopping-cart"></i>Add to cart
             </button>
@@ -182,7 +182,7 @@ class UI {
             <img src=${item.image} alt="product" />
             <div>
               <h4>${item.title}</h4>
-              <h5>THB ${item.price}.-</h5>
+              <h5>THB ${item.price.toLocaleString()}.-</h5>
               <span class="remove-item" data-id=${item.id}>Remove</span>
             </div>
             <div>
