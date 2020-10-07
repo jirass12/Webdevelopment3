@@ -13,11 +13,11 @@
   <nav class="navbar">
     <div class="navbar-item">
         <span class="nav-icon">
-          <a href=""><img src="images/jirass.png" alt="store logo" height="50px;"/></a>
+          <a href=""><img src="images/jirass.png" alt="store logo"/></a>
         </span>
         <!-- Search form -->
         <form id="searchForm" class="form-inline mr-auto">
-          <input id="productInput"  class="form-control mr-sm-2" type="text" placeholder="Search in Jirass" aria-label="Search" style="width: 70%;">
+          <input id="productInput"  class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
           <input class="btn btn-outline-info btn-rounded btn-sm my-0" type="submit" value="Search" href="#cat">
         </form>   
         <!-- End form -->
@@ -97,8 +97,10 @@
 
 <!-- ZoomImage -->
 <div id="myModal" class="modal">
-  <span class="close">&times;</span>
-  <img class="modal-content" id="img01">
+  <div class="modalblock">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img01">
+  </div>
 </div>
 <!-- End ZoomImage -->
 	<!-- Cart -->
