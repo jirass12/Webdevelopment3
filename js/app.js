@@ -133,12 +133,14 @@ class UI {
     cartIcon.addEventListener("click", function(){
       cartOverlay.classList.add("transparentBcg");
       cartDOM.classList.add("showCart");
+      document.querySelector("body").style.overflow = "hidden";
     });
   }// End openCart
   closeCart(){
     closeCart.addEventListener("click", function(){
       cartOverlay.classList.remove("transparentBcg");
       cartDOM.classList.remove("showCart");
+      document.querySelector("body").style.overflow = "";
     });
   }//End closeCart
   buttonClick(){
