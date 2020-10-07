@@ -18,7 +18,7 @@ body {
 }
 /*///////Navbar///////////*/
 .navbar{
-  position: sticky;
+  position: fixed;
   top: 0px;
   background-color: rgb(231, 226, 221);
   width: 100%;
@@ -71,6 +71,9 @@ body {
 
 
 /*//////////Slide Show//////////*/
+#carouselExampleControls{
+  margin-top: 60px;
+}
 .d-block {
   min-height: calc(100vh - 60px);
   z-index: 1;
@@ -302,7 +305,7 @@ ul .product{
   position: fixed;
   top: 0;
   right: 0; 
-  max-width: min(500px,100vw);
+  width: min(500px,100vw);
   height: 100%;
   overflow: auto;
   z-index: 6;
